@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.hero1{
+  background: rgb(253,29,29);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(255,102,0,1) 100%);
+  color:white;
+}
