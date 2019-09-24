@@ -13,8 +13,17 @@ h1{
   background: linear-gradient(45deg, rgba(253,29,29,1) 0%, rgba(255,102,0,1) 100%);
   color: #fff;
 }
-.divisor{
-  background-color: #0E1C2C;
+.perfil{
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid;
+  border-color: red;
+}
+.perfil img{
+  border-radius: 50%;
   width: 100%;
-  height: 10px;
+}
+.hero2{
+  background-color: #0E1C2C;
 }
