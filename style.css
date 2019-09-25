@@ -20,7 +20,17 @@ a:hover{
   color:rgb(192, 192, 192);
 }
 .hero1{
-  color: #0E1C2C;
+  background: rgb(255,0,0);
+  background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255, 132, 0, 0.800) 100%), url("wall.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.hero2{
+  background-color: #0E1C2C;
+  color: #fff;
 }
 .perfil{
   border-radius:50%;
@@ -32,7 +42,4 @@ a:hover{
 .perfil img{
   border-radius: 50%;
   width: 100%;
-}
-.hero2{
-  background-color: #0E1C2C;
 }
