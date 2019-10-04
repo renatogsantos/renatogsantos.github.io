@@ -27,7 +27,7 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  height:80vh;
+  padding:0;
 }
 .hero2{
   background-color: #0E1C2C;
