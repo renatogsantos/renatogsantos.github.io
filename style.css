@@ -12,7 +12,13 @@ h1{
   font-size: 6vw;
   font-weight: 800;
 }
-@media only screen and (max-width: 600px){
+h2{
+  font-weight: 600;
+}
+p{
+  font-weight: 200;
+}
+@media only screen and (max-width: 900px){
   h1{    
     font-size: 60px;
   }
@@ -28,9 +34,15 @@ a:hover{
   padding:10px;
   border-radius:50px;
 }
+.divisor{
+  height: 12px;
+  width: 20%;
+  margin: 20px 0;
+  background-color: #fff;
+}
 .hero1{
-  background: rgb(0,15,255);
-  background: linear-gradient(45deg, rgba(0,15,255,1) 0%, rgba(5,255,0,1) 100%);
+  background: rgb(255,0,0);
+  background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,106,0,0.800) 100%), url('wall.jpg');
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -46,8 +58,8 @@ a:hover{
   border-radius:50%;
   width: 150px;
   height: 150px;
-  border: 8px solid;
-  border-color: rgb(0, 255, 21);
+  border: 8px solid red;
+  margin-bottom:50px;
 }
 .perfil img{
   border-radius: 50%;
@@ -55,10 +67,10 @@ a:hover{
 }
 
 .fadeIn {
-  -webkit-animation: fadeIn 2s ease-in-out;
-  -moz-animation: fadeIn 2s ease-in-out;
-  -o-animation: fadeIn 2s ease-in-out;
-  animation: fadeIn 2s ease-in-out;
+  -webkit-animation: fadeIn 3s ease-in-out;
+  -moz-animation: fadeIn 3s ease-in-out;
+  -o-animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
   }
 
 @-webkit-keyframes fadeIn {
