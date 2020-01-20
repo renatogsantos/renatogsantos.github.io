@@ -10874,8 +10874,8 @@ span {
 }
 
 .wall {
-  background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0.9)));
-  background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0.9) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.9))), url("../assets/wall.jpg");
+  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.9) 100%), url("../assets/wall.jpg");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
