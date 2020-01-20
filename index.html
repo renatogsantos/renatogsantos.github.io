@@ -1,86 +1,237 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/93fc62e7f1.js" crossorigin="anonymous"></script>
-    <title>Renato G. Santos</title>
-  </head>
-  <body>
-    <div class="container-fluid hero1 pt-5">
-      <div class="container pt-5 pb-5 slide-bottom fade-in">
-          <h3>Renato G. Santos</h3>
-          <h1>I'm Freelancer.</h1>
-          <div class="divisor"></div>
-          <h2>Designer & Web Developer_</h2>
-          <br>
-          <a href="test" target="_blank" class="button "><i class="fab fa-linkedin-in"></i></a>
-          <a href="test" target="_blank" class="button "><i class="fab fa-github"></i></a>
-          <a href="test" target="_blank" class="button "><i class="fab fa-dribbble"></i></a>
-          <a href="test" target="_blank" class="button "><i class="fab fa-behance"></i></a>
-          <a href="test" target="_blank" class="button "><i class="fab fa-twitter"></i></a>
-          <a href="test" target="_blank" class="button "><i class="fab fa-instagram"></i></a>
-          <a href="test" target="_blank" class="button "><i class="fab fa-facebook"></i></a>
-          <hr>
-          <a name="" id="" class="btn btn-outline-light" href="#" role="button"><i class="far fa-file-alt"></i> DOWNLOAD RESUME</a>
-          <a name="" id="" class="btn btn-outline-light" href="#about" role="button">ABOUT ME</a>
-        </div>      
-      <!--svg style-->
-      <svg xml:space="preserve" width="100%" height="auto" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision;image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 20457.73 2417.03">
-        <defs>
-          <style type="text/css">
-           <![CDATA[
-            .fil0 {fill:#0E1C2C}
-            .fil3 {fill:#0E1C2C;fill-opacity:0.200000}
-            .fil2 {fill:#0E1C2C;fill-opacity:0.501961}
-            .fil1 {fill:#0E1C2C;fill-opacity:0.800000}
-           ]]>
-          </style>
-        </defs>
-        <g id="Camada_x0020_1">
-          <metadata id="CorelCorpID_0Corel-Layer"/>
-          <path class="fil0" d="M-0 1565.37c0,0 1995.12,-851.66 10024.78,240.68 8029.66,1092.36 10432.95,-1036.8  10432.95, -1036.8l0 1647.78 -20457.73 0 0 -851.66z"/>
-          <path class="fil1" d="M-0 1316.57c0,0 1748.2,-1553.14 7757.67,80.48 6009.46,1633.64 12700.06,-1109.18   12700.06, -1109.18l0 2129.16 -20457.73 0 0 -1100.46z"/>
-          <path class="fil2" d="M-0 1364.41c0,0 3717.26,-894.34 9880.16,191.97 6162.89,1086.3 10577.57,-1175.94   10577.57, -1175.94l0 2036.59 -20457.73 0 0 -1052.62z"/>
-          <path class="fil3" d="M-0 617.45c0,0 5529.69,735.02 11512.21,925.2 5982.52,190.19 8945.52,-1542.65  8945.52,-1542.65l0  2417.03 -20457.73 0 0 -1799.59z"/>
-        </g>
-      </svg>
-      <!--svg style-->
+<head>
+  <title>Potencia Ferramentas Diamantadas</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/269a1099c1.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+  </script>
+  
+  <link rel="stylesheet" href="scss/style.css">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-navbar scrolling-navbar">
+    <a class="navbar-brand" href="#"><img src="assets/logo-potencia.svg" width="150px" alt="potencia"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contato</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/PotenciaFerramentasDiamantadas/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
     </div>
-    <div class="container-fluid hero2 text-center" id="about">
-      <div class="container pt-5 pb-5">
-        <img src="perfil.jpg" class="perfil" alt="" srcset="">
-        <h2>ABOUT ME_</h2>
-        <p>Especialista na área de Design Gráfico, atuando no mercado a 6 anos desenvolvendo projetos para grandes empresas, com atuação nas áreas de Diagramação de Revistas, Criação de logomarcas, Marketing, Web Design, Design Gráfico, entre muitas outras.<br>Experiente nos processos de desenvolvimento de marcas e produtos relacionados, Branding e divulgação com o uso das mais diversas ferramentas disponíveis atualmente.<br>Vivência em grandes empresas nas áreas de desenvolvimento de produtos e acessórios, e de implementação de marcas.</p>
-        <hr>
-        <div class="row">
-          <div class="col-sm-12 col-lg-4 fadeIn">
-            <img src="svg/smartphone-1.svg" width="150px" alt="" srcset="">
-            <hr>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi possimus laborum qui temporibus deserunt.</p>
-          </div>
-          <div class="col-sm-12 col-lg-4 fadeIn">
-            <img src="svg/smartphone-2.svg" width="150px" alt="" srcset="">
-            <hr>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione suscipit dicta nihil magni voluptatum excepturi!</p>
-          </div>
-          <div class="col-sm-12 col-lg-4 fadeIn">
-            <img src="svg/map.svg" width="150px" alt="" srcset="">
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure placeat dolore quibusdam vel sit?</p>
-          </div>
+  </nav>
+
+  <img class="wall-svg" src="assets/wall-home.svg" alt="" srcset="">
+
+  <div class="d-flex align-items-center wall">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="show-1 slide title"><span>POTENCIA</span></h1>
+        </div>
+        <div class="col">
+          teste
         </div>
       </div>
     </div>
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  </div>
+
+  <div id="about" class="container pt-5 pb-3">
+    <div class="row pt-5">
+      <div class="col-lg-4 p-3 text-light text-center">
+        <div class="card-1 slide p-3">
+          <img class="slide-top show-2" src="assets/teamwork.svg" width="50%" alt="potencia">
+          <hr>
+          <h3 class="show-2">UMA FAMÍLIA COM <span>GRANDE</span> POTÊNCIAL</h3>
+        </div>
+      </div>
+      <div class="col-lg-8 p-3 slide">
+        <h2 class="show-2 slide">COLOQUE MAIS <span>POTENCIA</span> NA SUA PRODUÇÃO</h2>
+        <div class="divisor slide"></div>
+        <p class="show-3">A POTENCIA é uma empresa criada com o objetivo de fornecer <span>ferramentas diamantadas</span> de alta qualidade a indústrias de beneficiamento de vidros e pedras naturais.<br>Focada em excelência no atendimento e garantindo qualidade de seus produtos com preços altamente competitivos, destaca-se no mercado nacional.<br>Nossos produtos possuem as características ideais para atender as necessidades de cada tipo de máquina e serviço.<br>Precisão, qualidade de lapidação e durabilidade. As parcerias feitas com empresas internacionais, de grande experiência no setor, garantem a qualidade e a eficiência de nossas ferramentas.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-3 pb-5">
+    <div class="row pb-5">
+      <div class="col-lg-8 p-3 slide">
+        <h2 class="show-2 slide">POLÍTICA DE <span>QUALIDADE</span></h2>
+        <div class="divisor slide"></div>
+        <p class="show-3">Temos como principal foco a excelência no atendimento e satisfação de seus clientes, baseado sempre na melhoria contínua de seus processos, parceria com seus fornecedores, capacitação de seus colaboradores e atendimento as necessidades de seus clientes.</p>
+      </div>
+      <div class="col-lg-4 p-3 text-light text-center">
+        <div class="card-1 slide p-3">
+          <img class="slide-top show-2" src="assets/care.svg" width="50%" alt="potencia">
+          <hr>
+          <h3 class="show-2">EXCELÊNCIA NO ATENDIMENTO E <span>SATISFAÇÃO</span></h3>
+        </div>    
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid wall-2 pt-5 pb-5 text-light">
+    <div class="container">
+      <h2 class="show-2 slide">NOSSAS MISSÕES E VALORES</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 slide">
+          <img class="slide-top" src="assets/linechart.svg" height="80px" style="margin-bottom: 20px;" alt="potencia">
+          <h3 class="show-2">MISSÃO</h3>
+          <div class="divisor slide"></div>
+          <p class="show-3">Compromisso em garantir excelência e qualidade no desenvolvimento dos nossos produtos, junto aos nossos clientes, com atendimento personalizado.</p>
+        </div>
+        <div class="col-sm-12 col-lg-4 slide">
+          <img class="slide-top" src="assets/podium.svg" height="80px" style="margin-bottom: 20px;" alt="potencia">
+          <h3 class="show-2">VISÃO</h3>
+          <div class="divisor slide"></div>
+          <p class="show-3">Ser líder no mercado que atua de maneira positiva, fortalecendo a nossa marca e gama de produtos. </p>
+        </div>
+        <div class="col-sm-12 col-lg-4 slide">
+          <img class="slide-top" src="assets/diamond.svg" height="80px" style="margin-bottom: 20px;" alt="potencia">
+          <h3 class="show-2">VALORES</h3>
+          <div class="divisor slide"></div>
+          <p class="show-3">Integridade com todas as pessoas, Ética em seus relacionamentos, Transparência com nossos clientes e colaboradores, Qualidade em nossos produtos e atendimento. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container pt-5 pb-5">
+      <img class="slide-top show-2" src="assets/coin.svg" width="150px" alt="potencia">
+      <h2 class="show-2 slide">RESPONSABILIDADE SOCIAL</h2>
+      <div class="divisor slide"></div>
+      <h3 class="show-2">Orgulho de ser investidor social</h3>
+      <div class="row">
+        <div class="col-sm-12 col-lg-8 p-3">
+          <p class="show-3">Com o objetivo de captar recursos para subsidiar suas ações socioeducativas, o Instituto Amélia Rodrigues, criou o projeto Investidor Social que tem como objetivo "patrocinar" projetos de Educação Infantil, Centro da Juventude, Centro Pré-Adolescente, Iniciação Profissional (incluindo informática), além dos programas de atendimentos às famílias e à comunidade: atendimentos psicológico, psicopedagógico, médico, odontológico e ortodôntico, cursos para Geração de Renda e Orientação à Gestantes que o Instituto presta a comunidade Carente do Grande ABC.</p>
+          <a class="btn button heartbeat" href="http://www.investidorsocial.org.br/" target="_blank" rel="noopener noreferrer">&#128150 Saiba mais!</a>
+          <a class="btn button-1 heartbeat" href="http://www.investidorsocial.org.br/" target="_blank" rel="noopener noreferrer">&#128150 Saiba mais!</a>
+        </div>
+        <div class="col-sm-12 col-lg-4 p-3">
+          <img class="slide" width="100%" src="assets/investidor-social.png" alt="potencia">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="contact" class="container-fluid pt-5 pb-5 wall-2 text-light">
+    <div class="container pt-5 pb-5">
+      <h2 class="show-2 slide">CONTATO <span>POTENCIA</span></h2>
+      <div class="divisor slide"></div>
+      <h3 class="show-3">CONHEÇA NOSSO TIME!</h3>
+      <hr>
+      <div class="row text-center">
+        <div class="col-lg-4 col-sm-12 pt-3 pb-3">
+          <img class="perfil show-2 slide" src="assets/perfil.jpg" alt="">
+          <h4 class="show-3 slide"><span>Renato G. Santos</span></h4>
+          <hr>
+          <p class="show-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, officiis?</p>
+          <img class="social-icon slide show-2" src="assets/gmail.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/005-whatsapp.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/015-skype.svg" alt="">
+        </div>
+        <div class="col-lg-4 col-sm-12 pt-3 pb-3">
+          <img class="perfil show-2 slide" src="assets/perfil.jpg" alt="">
+          <h4 class="show-3 slide"><span>Renato G. Santos</span></h4>
+          <hr>
+          <p class="show-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, officiis?</p>
+          <img class="social-icon slide show-2" src="assets/gmail.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/005-whatsapp.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/015-skype.svg" alt="">
+        </div>
+        <div class="col-lg-4 col-sm-12 pt-3 pb-3">
+          <img class="perfil show-2 slide" src="assets/perfil.jpg" alt="">
+          <h4 class="show-3 slide"><span>Renato G. Santos</span></h4>
+          <hr>
+          <p class="show-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, officiis?</p>
+          <img class="social-icon slide show-2" src="assets/gmail.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/005-whatsapp.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/015-skype.svg" alt="">
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-4 col-sm-12 pt-3 pb-3">
+          <img class="perfil show-2 slide" src="assets/perfil.jpg" alt="">
+          <h4 class="show-3 slide"><span>Renato G. Santos</span></h4>
+          <hr>
+          <p class="show-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, officiis?</p>
+          <img class="social-icon slide show-2" src="assets/gmail.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/005-whatsapp.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/015-skype.svg" alt="">
+        </div>
+        <div class="col-lg-4 col-sm-12 pt-3 pb-3">
+          <img class="perfil show-2 slide" src="assets/perfil.jpg" alt="">
+          <h4 class="show-3 slide"><span>Renato G. Santos</span></h4>
+          <hr>
+          <p class="show-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, officiis?</p>
+          <img class="social-icon slide show-2" src="assets/gmail.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/005-whatsapp.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/015-skype.svg" alt="">
+        </div>
+        <div class="col-lg-4 col-sm-12 pt-3 pb-3">
+          <img class="perfil show-2 slide" src="assets/perfil.jpg" alt="">
+          <h4 class="show-3 slide"><span>Renato G. Santos</span></h4>
+          <hr>
+          <p class="show-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, officiis?</p>
+          <img class="social-icon slide show-2" src="assets/gmail.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/005-whatsapp.svg" alt="">
+          <img class="social-icon slide show-2" src="assets/015-skype.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script>
+    ScrollReveal({ reset: true });
+		ScrollReveal().reveal('.show-1', {deley: 300 })
+		ScrollReveal().reveal('.show-2', { delay: 600 })
+		ScrollReveal().reveal('.show-3', { delay: 800 })
+    var slideUp = {
+      distance: '30%',
+      origin: 'left',
+      opacity: 0
+    };
+    ScrollReveal().reveal('.slide', slideUp);
+	</script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
 </html>

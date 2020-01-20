@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="212.045mm" height="140.786mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10885.56 7227.41"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+    .fil2 {fill:url(#id1);fill-opacity:0.501961}
+    .fil1 {fill:url(#id2);fill-opacity:0.501961}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="6067.05" y1="2409.26" x2="10885.56" y2="2409.26">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FF6400"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FF4600"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="7234.05" y1="4119.42" x2="9398.23" y2="4119.42">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="2523.9" y1="2623.87" x2="7081.82" y2="2623.87">
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M7476.43 0l1630.98 0 533.4 0 1244.74 0 0 3654 0 3573.42c0,-1316.15 -1069.63,-2394.42 -2382.51,-2408.91l-26.75 0 -533.39 0 -711.35 0 -2164.38 0c-1243.76,0 -2397.15,-905.26 -2397.15,-2168.24 0,-1464.78 -1211.11,-2650.27 -2670.02,-2650.27l4067.31 0 2164.38 0 622.37 0 622.37 0z"/>
+  <path class="fil1" d="M3857.07 344.92l2716.71 0c279.42,0 508.04,228.62 508.04,508.04l0 2948.35c0,605.84 -495.69,1101.53 -1101.53,1101.53l-1177.43 0c-1253.43,0 -2278.95,-1025.53 -2278.95,-2278.95l0 -945.8c0,-733.24 599.92,-1333.16 1333.16,-1333.16z"/>
+  <path class="fil2" d="M7867.06 3037.33l1289.94 0c132.67,0 241.22,108.55 241.22,241.22l0 1399.93c0,287.67 -235.36,523.02 -523.02,523.02l-559.07 0c-595.15,0 -1082.08,-486.93 -1082.08,-1082.08l0 -449.08c0,-348.16 284.85,-633.01 633.01,-633.01z"/>
+ </g>
+</svg>
