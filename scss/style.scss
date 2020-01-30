@@ -1,6 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
 
 html {
   scroll-behavior: smooth;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -87,8 +87,8 @@ h2 {
 }
 
 span {
-  background: rgb(255, 0, 0);
-  background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 100, 0, 1) 50%, rgba(255, 133, 0, 1) 100%);
+  background: rgb(255, 81, 0);
+  background: linear-gradient(45deg, rgba(255, 81, 0, 1) 0%, rgba(255, 100, 0, 1) 50%, rgba(255, 133, 0, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -102,7 +102,7 @@ span {
 
 @media only screen and (max-width: 720px) {
   .title {
-    font-size: 8vh;
+    font-size: 7vh;
     color: #ff6400;
   }
 }
@@ -154,10 +154,10 @@ span {
   width: 15%;
   padding: 0;
   margin: 10px 0;
-  background: rgb(255, 0, 0);
-  background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 100, 0, 1) 50%, rgba(255, 133, 0, 1) 100%);
+  background: rgb(255, 81, 0);
+  background: linear-gradient(45deg, rgba(255, 81, 0, 1) 0%, rgba(255, 100, 0, 1) 50%, rgba(255, 133, 0, 1) 100%);
   position: relative;
-  left: -20px;
+  left: -25px;
 }
 
 .button {
@@ -477,4 +477,9 @@ span {
     transform: translateZ(0);
     opacity: 1
   }
+}
+
+::selection {
+  background: #ff6400;
+  color: #fff;
 }

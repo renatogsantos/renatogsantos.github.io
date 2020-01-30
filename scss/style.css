@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10776,7 +10776,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -10846,8 +10846,8 @@ h2 {
 }
 
 span {
-  background: red;
-  background: linear-gradient(45deg, red 0%, #ff6400 50%, #ff8500 100%);
+  background: #ff5100;
+  background: linear-gradient(45deg, #ff5100 0%, #ff6400 50%, #ff8500 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -10861,7 +10861,7 @@ span {
 
 @media only screen and (max-width: 720px) {
   .title {
-    font-size: 8vh;
+    font-size: 7vh;
     color: #ff6400;
   }
 }
@@ -10914,10 +10914,10 @@ span {
   width: 15%;
   padding: 0;
   margin: 10px 0;
-  background: red;
-  background: linear-gradient(45deg, red 0%, #ff6400 50%, #ff8500 100%);
+  background: #ff5100;
+  background: linear-gradient(45deg, #ff5100 0%, #ff6400 50%, #ff8500 100%);
   position: relative;
-  left: -20px;
+  left: -25px;
 }
 
 .button {
@@ -11213,5 +11213,15 @@ span {
     transform: translateZ(0);
     opacity: 1;
   }
+}
+
+::-moz-selection {
+  background: #ff6400;
+  color: #fff;
+}
+
+::selection {
+  background: #ff6400;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
