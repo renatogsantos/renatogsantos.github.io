@@ -10892,11 +10892,23 @@ span {
   background-size: cover;
 }
 
-.bg-1 {
+.box-product {
+  padding: 15px;
+  border: dotted;
+  height: 250px;
+}
+
+.product {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 60%;
+  bottom: -10px;
+  right: -10px;
+  width: 150px;
+  height: 100%;
+}
+
+.bg-1 {
+  padding: 50px;
+  height: 50vh;
 }
 
 .card-1 {
