@@ -10765,14 +10765,14 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-  background: #0B0E1A;
-}
-
 * {
   padding: 0;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #141E30;
 }
 
 body {
@@ -10781,7 +10781,7 @@ body {
 
 header {
   position: relative;
-  background-color: #000;
+  background-color: #141E30;
   height: 100vh;
   min-height: 25rem;
   width: 100%;

@@ -4,16 +4,17 @@
 
 //tema
 
-$header-color: #000;
-
-html {
-  scroll-behavior: smooth;
-  background: #0B0E1A;
-}
+$header-color: #141E30;
+$background-color: #141E30;
 
 * {
   padding: 0;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: $background-color;
 }
 
 body {
@@ -22,48 +23,46 @@ body {
 
 header {
   position: relative;
-  background-color: $header-color;
+  background-color: $background-color;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-}
 
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #141E30;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #243B55, #141E30);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #243B55, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  opacity: 0.8;
-  z-index: 1;
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: $background-color;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    opacity: 0.8;
+    z-index: 1;
+  }
 }
 
 @media (pointer: coarse) and (hover: none) {
