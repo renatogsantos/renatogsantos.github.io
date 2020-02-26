@@ -10832,7 +10832,7 @@ header .overlay {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   padding: 0;
   margin: 0;
@@ -10851,12 +10851,6 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-}
-
-.title {
-  font-size: 8vw;
-  font-weight: 900;
-  color: #ff6400;
 }
 
 @media only screen and (max-width: 720px) {
