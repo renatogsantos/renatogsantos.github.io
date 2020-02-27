@@ -10846,10 +10846,7 @@ h2 {
 }
 
 span {
-  background: #ff5100;
-  background: linear-gradient(45deg, #ff5100 0%, #ff6400 50%, #ff8500 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ff4600;
   font-weight: 800;
 }
 
@@ -10916,12 +10913,12 @@ span {
 }
 
 .divisor {
-  height: 5px;
-  width: 15%;
+  height: 6px;
+  width: 80px;
   padding: 0;
   margin: 10px 0;
-  background: #ff5100;
-  background: linear-gradient(45deg, #ff5100 0%, #ff6400 50%, #ff8500 100%);
+  border-radius: 20px;
+  background: #ff4600;
   position: relative;
   left: -25px;
 }
@@ -10931,11 +10928,11 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #ff8500;
+  background: #ff4600;
   background: linear-gradient(45deg, #ff5000 0%, #ff8500 100%);
   border-radius: 50px;
-  -webkit-box-shadow: 0px 10px 15px #ff660080;
-          box-shadow: 0px 10px 15px #ff660080;
+  -webkit-box-shadow: 0px 10px 15px #ff660050;
+          box-shadow: 0px 10px 15px #ff660050;
 }
 
 .button:hover {
@@ -10946,8 +10943,8 @@ span {
   background: #ff8500;
   background: linear-gradient(45deg, #ff8500 0%, #ff5000 100%);
   border-radius: 50px;
-  -webkit-box-shadow: 0px 10px 15px #ff660080;
-          box-shadow: 0px 10px 15px #ff660080;
+  -webkit-box-shadow: 0px 10px 15px #ff660050;
+          box-shadow: 0px 10px 15px #ff660050;
 }
 
 .button-1 {
@@ -10992,7 +10989,7 @@ span {
   background: -webkit-gradient(linear, left top, right top, color-stop(bottom, to), color-stop(#243B55), to(#141E30));
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #ff6400;
+  border-bottom: 3px solid #ff4600;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -11001,7 +10998,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #ff6400;
+  border: 3px solid #ff4600;
 }
 
 .social-icon {

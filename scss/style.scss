@@ -6,6 +6,7 @@
 
 $header-color: #141E30;
 $background-color: #141E30;
+$span-color: #ff4600;
 
 * {
   padding: 0;
@@ -90,10 +91,7 @@ h2 {
 }
 
 span {
-  background: rgb(255, 81, 0);
-  background: linear-gradient(45deg, rgba(255, 81, 0, 1) 0%, rgba(255, 100, 0, 1) 50%, rgba(255, 133, 0, 1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:$span-color;
   font-weight: 800;
 }
 
@@ -158,12 +156,12 @@ span {
 }
 
 .divisor {
-  height: 5px;
-  width: 15%;
+  height: 6px;
+  width: 80px;
   padding: 0;
   margin: 10px 0;
-  background: rgb(255, 81, 0);
-  background: linear-gradient(45deg, rgba(255, 81, 0, 1) 0%, rgba(255, 100, 0, 1) 50%, rgba(255, 133, 0, 1) 100%);
+  border-radius: 20px;
+  background:$span-color;
   position: relative;
   left: -25px;
 }
@@ -173,10 +171,10 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: rgb(255, 133, 0);
+  background: $span-color;
   background: linear-gradient(45deg, rgba(255, 80, 0, 1) 0%, rgba(255, 133, 0, 1) 100%);
   border-radius: 50px;
-  box-shadow: 0px 10px 15px #ff660080;
+  box-shadow: 0px 10px 15px #ff660050;
 }
 
 .button:hover {
@@ -187,7 +185,7 @@ span {
   background: rgb(255, 133, 0);
   background: linear-gradient(45deg, rgba(255, 133, 0, 1) 0%, rgba(255, 80, 0, 1) 100%);
   border-radius: 50px;
-  box-shadow: 0px 10px 15px #ff660080;
+  box-shadow: 0px 10px 15px #ff660050;
 }
 
 .button-1 {
@@ -230,7 +228,7 @@ span {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #ff6400;
+  border-bottom: 3px solid $span-color;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -239,7 +237,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #ff6400;
+  border: 3px solid $span-color;
 }
 
 .social-icon {
