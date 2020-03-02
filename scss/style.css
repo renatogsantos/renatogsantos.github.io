@@ -10824,7 +10824,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("../assets/wall.jpg") black no-repeat center center scroll;
+    background: url("../assets/wall.png") black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -10865,8 +10865,8 @@ span {
 }
 
 .wall {
-  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.9))), url("../assets/wall.jpg");
-  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.9) 100%), url("../assets/wall.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.7))), url("../assets/wall.png");
+  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.7) 100%), url("../assets/wall.png");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -10875,8 +10875,8 @@ span {
 }
 
 .wall-2 {
-  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.9))), url("../assets/wall.jpg");
-  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.9) 100%), url("../assets/wall.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.7))), url("../assets/wall.png");
+  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.7) 100%), url("../assets/wall.png");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -11222,12 +11222,12 @@ span {
 }
 
 ::-moz-selection {
-  background: #ff6400;
+  background: #0080ff;
   color: #fff;
 }
 
 ::selection {
-  background: #ff6400;
+  background: #0080ff;
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
