@@ -6,7 +6,7 @@
 
 $header-color: #141E30;
 $background-color: #141E30;
-$span-color: #ff4600;
+$span-color: #0080ff;
 
 * {
   padding: 0;
@@ -44,10 +44,12 @@ header {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
+
   .container {
     position: relative;
     z-index: 2;
   }
+
   .overlay {
     position: absolute;
     top: 0;
@@ -60,7 +62,7 @@ header {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #243B55, #141E30);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+
     opacity: 0.8;
     z-index: 1;
   }
@@ -91,14 +93,14 @@ h2 {
 }
 
 span {
-  color:$span-color;
+  color: $span-color;
   font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
   .title {
     font-size: 7vh;
-    color: #ff6400;
+    color: $span-color;
   }
 }
 
@@ -126,22 +128,23 @@ span {
   background-size: cover;
 }
 
-.box-product{
+.box-product {
   padding: 15px;
-  border:dotted;
+  border: dotted;
   height: 250px;
 }
-.product{
+
+.product {
   position: absolute;
-  bottom:-10px;
-  right:-10px;
+  bottom: -10px;
+  right: -10px;
   width: 150px;
   height: 100%;
 }
 
 .bg-1 {
-  padding:50px;
-  height:50vh;
+  padding: 50px;
+  height: 50vh;
 }
 
 .card-1 {
@@ -161,7 +164,7 @@ span {
   padding: 0;
   margin: 10px 0;
   border-radius: 20px;
-  background:$span-color;
+  background: $span-color;
   position: relative;
   left: -25px;
 }
@@ -172,9 +175,9 @@ span {
   padding: 10px 25px;
   margin: 10px 0;
   background: $span-color;
-  background: linear-gradient(45deg, rgba(255, 80, 0, 1) 0%, rgba(255, 133, 0, 1) 100%);
+  background: radial-gradient(circle, rgba(0,128,255,1) 0%, rgba(0,99,198,1) 50%, rgba(0,75,149,1) 100%);
   border-radius: 50px;
-  box-shadow: 0px 10px 15px #ff660050;
+  box-shadow: 0px 5px 5px #0080ff90;
 }
 
 .button:hover {
@@ -182,30 +185,32 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: rgb(255, 133, 0);
-  background: linear-gradient(45deg, rgba(255, 133, 0, 1) 0%, rgba(255, 80, 0, 1) 100%);
+  background: $span-color;
+  background: radial-gradient(circle, rgba(0,128,255,1) 0%, rgba(0,99,198,1) 50%, rgba(0,75,149,1) 100%);
   border-radius: 50px;
-  box-shadow: 0px 10px 15px #ff660050;
+  box-shadow: 0px 10px 15px #0080ff90;
+  transition: .5s;
 }
 
 .button-1 {
   text-decoration: none;
-  color: #868686;
+  color: $span-color;
   padding: 10px 25px;
   margin: 10px 0;
-  border: 2px solid #868686;
+  background-color: #fff;
+  border: 2px solid $span-color;
   border-radius: 50px;
   font-weight: 600;
-  box-shadow: 0px 10px 15px #00000025;
+  box-shadow: 0px 5px 5px #00000025;
 }
 
 .button-1:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #868686;
+  background-color: $span-color;
   padding: 10px 25px;
   margin: 10px 0;
-  border: 2px solid #868686;
+  border: 2px solid $span-color;
   border-radius: 50px;
   font-weight: 600;
   box-shadow: 0px 10px 15px #00000025;

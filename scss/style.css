@@ -10846,14 +10846,14 @@ h2 {
 }
 
 span {
-  color: #ff4600;
+  color: #0080ff;
   font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
   .title {
     font-size: 7vh;
-    color: #ff6400;
+    color: #0080ff;
   }
 }
 
@@ -10918,7 +10918,7 @@ span {
   padding: 0;
   margin: 10px 0;
   border-radius: 20px;
-  background: #ff4600;
+  background: #0080ff;
   position: relative;
   left: -25px;
 }
@@ -10928,11 +10928,11 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #ff4600;
-  background: linear-gradient(45deg, #ff5000 0%, #ff8500 100%);
+  background: #0080ff;
+  background: radial-gradient(circle, #0080ff 0%, #0063c6 50%, #004b95 100%);
   border-radius: 50px;
-  -webkit-box-shadow: 0px 10px 15px #ff660050;
-          box-shadow: 0px 10px 15px #ff660050;
+  -webkit-box-shadow: 0px 5px 5px #0080ff90;
+          box-shadow: 0px 5px 5px #0080ff90;
 }
 
 .button:hover {
@@ -10940,32 +10940,35 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #ff8500;
-  background: linear-gradient(45deg, #ff8500 0%, #ff5000 100%);
+  background: #0080ff;
+  background: radial-gradient(circle, #0080ff 0%, #0063c6 50%, #004b95 100%);
   border-radius: 50px;
-  -webkit-box-shadow: 0px 10px 15px #ff660050;
-          box-shadow: 0px 10px 15px #ff660050;
+  -webkit-box-shadow: 0px 10px 15px #0080ff90;
+          box-shadow: 0px 10px 15px #0080ff90;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .button-1 {
   text-decoration: none;
-  color: #868686;
+  color: #0080ff;
   padding: 10px 25px;
   margin: 10px 0;
-  border: 2px solid #868686;
+  background-color: #fff;
+  border: 2px solid #0080ff;
   border-radius: 50px;
   font-weight: 600;
-  -webkit-box-shadow: 0px 10px 15px #00000025;
-          box-shadow: 0px 10px 15px #00000025;
+  -webkit-box-shadow: 0px 5px 5px #00000025;
+          box-shadow: 0px 5px 5px #00000025;
 }
 
 .button-1:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #868686;
+  background-color: #0080ff;
   padding: 10px 25px;
   margin: 10px 0;
-  border: 2px solid #868686;
+  border: 2px solid #0080ff;
   border-radius: 50px;
   font-weight: 600;
   -webkit-box-shadow: 0px 10px 15px #00000025;
@@ -10989,7 +10992,7 @@ span {
   background: -webkit-gradient(linear, left top, right top, color-stop(bottom, to), color-stop(#243B55), to(#141E30));
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #ff4600;
+  border-bottom: 3px solid #0080ff;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -10998,7 +11001,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #ff4600;
+  border: 3px solid #0080ff;
 }
 
 .social-icon {
