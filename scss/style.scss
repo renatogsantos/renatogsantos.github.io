@@ -5,21 +5,22 @@
 //tema
 
 $header-color: #141E30;
-$background-color: #141E30;
+$background-color: #ccc;
 $span-color: #ff4600;
 
 * {
   padding: 0;
   margin: 0;
+  letter-spacing: .1px;
 }
 
 html {
   scroll-behavior: smooth;
-  background: $background-color;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: $background-color;
 }
 
 header {
@@ -87,7 +88,13 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+h3{
+  font-size:2rem;
+  font-weight:700;
   padding: 0;
   margin: 0;
 }

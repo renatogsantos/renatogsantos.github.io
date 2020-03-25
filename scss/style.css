@@ -10768,20 +10768,21 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   padding: 0;
   margin: 0;
+  letter-spacing: .1px;
 }
 
 html {
   scroll-behavior: smooth;
-  background: #141E30;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #ccc;
 }
 
 header {
   position: relative;
-  background-color: #141E30;
+  background-color: #ccc;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
@@ -10812,7 +10813,7 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #141E30;
+  background: #ccc;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, right top, left top, from(#243B55), to(#141E30));
@@ -10839,6 +10840,13 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
   font-size: 2rem;
   font-weight: 700;
   padding: 0;
