@@ -10846,14 +10846,14 @@ h2 {
 }
 
 span {
-  color: #0080ff;
+  color: #ff4600;
   font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
   .title {
     font-size: 7vh;
-    color: #0080ff;
+    color: #ff4600;
   }
 }
 
@@ -10918,7 +10918,7 @@ span {
   padding: 0;
   margin: 10px 0;
   border-radius: 20px;
-  background: #0080ff;
+  background: #ff4600;
   position: relative;
   left: -25px;
 }
@@ -10928,11 +10928,10 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #0080ff;
-  background: radial-gradient(circle, #0080ff 0%, #0063c6 50%, #004b95 100%);
+  background: #ff4600;
   border-radius: 50px;
-  -webkit-box-shadow: 0px 5px 5px #0080ff90;
-          box-shadow: 0px 5px 5px #0080ff90;
+  -webkit-box-shadow: 0px 5px 5px #ff460080;
+          box-shadow: 0px 5px 5px #ff460080;
 }
 
 .button:hover {
@@ -10940,22 +10939,21 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #0080ff;
-  background: radial-gradient(circle, #0080ff 0%, #0063c6 50%, #004b95 100%);
+  background: #ff4600;
   border-radius: 50px;
-  -webkit-box-shadow: 0px 10px 15px #0080ff90;
-          box-shadow: 0px 10px 15px #0080ff90;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-box-shadow: 0px 20px 15px #ff460080;
+          box-shadow: 0px 20px 15px #ff460080;
+  -webkit-transition: .8s;
+  transition: .8s;
 }
 
 .button-1 {
   text-decoration: none;
-  color: #0080ff;
+  color: #ff4600;
   padding: 10px 25px;
   margin: 10px 0;
   background-color: #fff;
-  border: 2px solid #0080ff;
+  border: 2px solid #ff4600;
   border-radius: 50px;
   font-weight: 600;
   -webkit-box-shadow: 0px 5px 5px #00000025;
@@ -10965,10 +10963,10 @@ span {
 .button-1:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #0080ff;
+  background-color: #ff4600;
   padding: 10px 25px;
   margin: 10px 0;
-  border: 2px solid #0080ff;
+  border: 2px solid #ff4600;
   border-radius: 50px;
   font-weight: 600;
   -webkit-box-shadow: 0px 10px 15px #00000025;
@@ -10992,7 +10990,7 @@ span {
   background: -webkit-gradient(linear, left top, right top, color-stop(bottom, to), color-stop(#243B55), to(#141E30));
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #0080ff;
+  border-bottom: 3px solid #ff4600;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -11001,7 +10999,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #0080ff;
+  border: 3px solid #ff4600;
 }
 
 .social-icon {
@@ -11222,12 +11220,12 @@ span {
 }
 
 ::-moz-selection {
-  background: #0080ff;
+  background: #ff4600;
   color: #fff;
 }
 
 ::selection {
-  background: #0080ff;
+  background: #ff4600;
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

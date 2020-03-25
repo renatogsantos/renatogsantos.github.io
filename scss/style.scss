@@ -6,7 +6,7 @@
 
 $header-color: #141E30;
 $background-color: #141E30;
-$span-color: #0080ff;
+$span-color: #ff4600;
 
 * {
   padding: 0;
@@ -175,9 +175,8 @@ span {
   padding: 10px 25px;
   margin: 10px 0;
   background: $span-color;
-  background: radial-gradient(circle, rgba(0,128,255,1) 0%, rgba(0,99,198,1) 50%, rgba(0,75,149,1) 100%);
   border-radius: 50px;
-  box-shadow: 0px 5px 5px #0080ff90;
+  box-shadow: 0px 5px 5px #ff460080;
 }
 
 .button:hover {
@@ -186,10 +185,9 @@ span {
   padding: 10px 25px;
   margin: 10px 0;
   background: $span-color;
-  background: radial-gradient(circle, rgba(0,128,255,1) 0%, rgba(0,99,198,1) 50%, rgba(0,75,149,1) 100%);
   border-radius: 50px;
-  box-shadow: 0px 10px 15px #0080ff90;
-  transition: .5s;
+  box-shadow: 0px 20px 15px #ff460080;
+  transition: .8s;
 }
 
 .button-1 {
