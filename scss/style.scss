@@ -5,8 +5,8 @@
 //tema
 
 $header-color: #141E30;
-$background-color: rgb(233, 233, 233);
-$span-color: #ff4600;
+$background-color: rgb(255, 255, 255);
+$span-color: #ff3300;
 
 * {
   padding: 0;
@@ -88,20 +88,19 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 700;
   padding: 0;
   margin: 0;
 }
 h3{
   font-size:2rem;
-  font-weight:700;
+  font-weight:600;
   padding: 0;
   margin: 0;
 }
 
 span {
   color: $span-color;
-  font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
@@ -226,7 +225,7 @@ span {
 }
 
 .bg-navbar {
-  background: rgba(20, 30, 48, 0.500);
+  background: rgba(20, 30, 48, 0.100);
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }

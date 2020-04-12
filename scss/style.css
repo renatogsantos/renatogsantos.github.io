@@ -10777,12 +10777,12 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #e9e9e9;
+  background-color: white;
 }
 
 header {
   position: relative;
-  background-color: #e9e9e9;
+  background-color: white;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
@@ -10813,7 +10813,7 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #e9e9e9;
+  background: white;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, right top, left top, from(#243B55), to(#141E30));
@@ -10841,27 +10841,26 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 700;
   padding: 0;
   margin: 0;
 }
 
 h3 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 0;
   margin: 0;
 }
 
 span {
-  color: #ff4600;
-  font-weight: 800;
+  color: #ff3300;
 }
 
 @media only screen and (max-width: 720px) {
   .title {
     font-size: 7vh;
-    color: #ff4600;
+    color: #ff3300;
   }
 }
 
@@ -10926,7 +10925,7 @@ span {
   padding: 0;
   margin: 10px 0;
   border-radius: 20px;
-  background: #ff4600;
+  background: #ff3300;
   position: relative;
   left: -25px;
 }
@@ -10936,7 +10935,7 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #ff4600;
+  background: #ff3300;
   border-radius: 50px;
   -webkit-box-shadow: 0px 5px 5px #ff460080;
           box-shadow: 0px 5px 5px #ff460080;
@@ -10947,7 +10946,7 @@ span {
   color: #fff;
   padding: 10px 25px;
   margin: 10px 0;
-  background: #ff4600;
+  background: #ff3300;
   border-radius: 50px;
   -webkit-box-shadow: 0px 20px 15px #ff460080;
           box-shadow: 0px 20px 15px #ff460080;
@@ -10957,11 +10956,11 @@ span {
 
 .button-1 {
   text-decoration: none;
-  color: #ff4600;
+  color: #ff3300;
   padding: 10px 25px;
   margin: 10px 0;
   background-color: #fff;
-  border: 2px solid #ff4600;
+  border: 2px solid #ff3300;
   border-radius: 50px;
   font-weight: 600;
   -webkit-box-shadow: 0px 5px 5px #00000025;
@@ -10971,10 +10970,10 @@ span {
 .button-1:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #ff4600;
+  background-color: #ff3300;
   padding: 10px 25px;
   margin: 10px 0;
-  border: 2px solid #ff4600;
+  border: 2px solid #ff3300;
   border-radius: 50px;
   font-weight: 600;
   -webkit-box-shadow: 0px 10px 15px #00000025;
@@ -10986,7 +10985,7 @@ span {
 }
 
 .bg-navbar {
-  background: rgba(20, 30, 48, 0.5);
+  background: rgba(20, 30, 48, 0.1);
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -10998,7 +10997,7 @@ span {
   background: -webkit-gradient(linear, left top, right top, color-stop(bottom, to), color-stop(#243B55), to(#141E30));
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #ff4600;
+  border-bottom: 3px solid #ff3300;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -11007,7 +11006,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #ff4600;
+  border: 3px solid #ff3300;
 }
 
 .social-icon {
@@ -11228,12 +11227,12 @@ span {
 }
 
 ::-moz-selection {
-  background: #ff4600;
+  background: #ff3300;
   color: #fff;
 }
 
 ::selection {
-  background: #ff4600;
+  background: #ff3300;
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
