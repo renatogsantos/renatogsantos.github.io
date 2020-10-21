@@ -1,0 +1,24 @@
+{
+  "name": "renatogsantos.github.io",
+  "version": "1.0.0",
+  "description": "<h1>RESUMO</h1>\r <p>Especialista na área de Design Gráfico, atuando no mercado a 8 anos desenvolvendo projetos para grandes empresas, com atuação nas áreas de Diagramação de Revistas, Criação de logomarcas, Marketing, Web Design, Design Gráfico, entre muitas outras. Experiente nos processos de desenvolvimento de marcas e produtos relacionados, Branding e divulgação com o uso das mais diversas ferramentas disponíveis atualmente. Vivência em grandes empresas nas áreas de desenvolvimento de produtos e acessórios, e de implementação de marcas. <br></p>\r <small><span><b>Designer & Web Designer</b></span></small>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatogsantos/renatogsantos.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatogsantos/renatogsantos.github.io/issues"
+  },
+  "homepage": "https://github.com/renatogsantos/renatogsantos.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
