@@ -14,11 +14,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="scss/style.css">
     <script src="https://unpkg.com/scrollreveal@4"></script>
-    <script>
-        ScrollReveal({
-            duration: 1000
-        })
-    </script>
 </head>
 
 <body>
@@ -33,16 +28,16 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#resume">Resume</a>
+                    <a class="nav-link" href="index.html#resume">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="index.html#skills">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#top">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="index.html#contact">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav nav-flex-icons">
@@ -72,39 +67,20 @@
 
     <!--box1-->
     <div class="container-fluid p-5">
-        <div class="container"></div>
-        <h2>TRABALHOS <span>REALIZADOS</span></h2>
-        <div class="divisor"></div>
-        <p>Mídias sociais</p>
-    </div>
+        <div class="container">
+            <h2 class="show-1 slide">TRABALHOS <span>REALIZADOS</span></h2>
+            <div class="divisor show-1 slide"></div>
+            <p class="show-3 slide">Mídias sociais</p>
+        </div>        
     </div>
     <!--box1-->
 
     <!-- Optional JavaScript -->
-    <script>
-        ScrollReveal({
-            reset: true
-        });
-        ScrollReveal().reveal('.show-1', {
-            deley: 300
-        })
-        ScrollReveal().reveal('.show-2', {
-            delay: 600
-        })
-        ScrollReveal().reveal('.show-3', {
-            delay: 800
-        })
-        var slideUp = {
-            distance: '50%',
-            origin: 'left',
-            opacity: 0
-        };
-        ScrollReveal().reveal('.slide', slideUp);
-    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/scrollreveal.js"></script>
 </body>
 
 </html>
