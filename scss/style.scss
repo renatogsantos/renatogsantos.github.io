@@ -1,10 +1,8 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
 //tema
 $header-color: #141E30;
-$background-color: rgb(255,
-255,
-255);
+$background-color: rgb(255,255,255);
 $span-color: #ff3300;
 * {
     padding: 0;
@@ -174,7 +172,7 @@ span {
     margin: 10px 0;
     background: $span-color;
     border-radius: 50px;
-    box-shadow: 0px 5px 5px #ff460080;
+    box-shadow: 0px 5px 5px #00000025;
 }
 
 .button:hover {
@@ -184,19 +182,18 @@ span {
     margin: 10px 0;
     background: $span-color;
     border-radius: 50px;
-    box-shadow: 0px 20px 15px #ff460080;
+    box-shadow: 0px 10px 15px #00000025;
     transition: .8s;
 }
 
 .button-1 {
     text-decoration: none;
     color: $span-color;
-    padding: 10px 25px;
+    padding: 10px 20px;
     margin: 10px 0;
     background-color: #fff;
     border: 2px solid $span-color;
     border-radius: 50px;
-    font-weight: 600;
     box-shadow: 0px 5px 5px #00000025;
 }
 
@@ -204,11 +201,10 @@ span {
     text-decoration: none;
     color: #fff;
     background-color: $span-color;
-    padding: 10px 25px;
+    padding: 10px 20px;
     margin: 10px 0;
     border: 2px solid $span-color;
     border-radius: 50px;
-    font-weight: 600;
     box-shadow: 0px 10px 15px #00000025;
 }
 
