@@ -1,5 +1,5 @@
 ScrollReveal({
-  duration: 600
+  duration: 500
 })
 ScrollReveal({
   reset: true
