@@ -10970,10 +10970,10 @@ span {
 .button {
   text-decoration: none;
   color: #fff;
-  padding: 10px 25px;
+  padding: 5px 25px;
   margin: 10px 0;
   background: #ff3300;
-  border-radius: 50px;
+  border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 5px 5px #00000025;
           box-shadow: 0px 5px 5px #00000025;
 }
@@ -10981,10 +10981,10 @@ span {
 .button:hover {
   text-decoration: none;
   color: #fff;
-  padding: 10px 25px;
+  padding: 5px 25px;
   margin: 10px 0;
   background: #ff3300;
-  border-radius: 50px;
+  border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 10px 15px #00000025;
           box-shadow: 0px 10px 15px #00000025;
   -webkit-transition: .8s;
@@ -10994,11 +10994,10 @@ span {
 .button-1 {
   text-decoration: none;
   color: #ff3300;
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin: 10px 0;
-  background-color: #fff;
   border: 2px solid #ff3300;
-  border-radius: 50px;
+  border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 5px 5px #00000025;
           box-shadow: 0px 5px 5px #00000025;
 }
@@ -11007,12 +11006,14 @@ span {
   text-decoration: none;
   color: #fff;
   background-color: #ff3300;
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin: 10px 0;
   border: 2px solid #ff3300;
-  border-radius: 50px;
+  border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 10px 15px #00000025;
           box-shadow: 0px 10px 15px #00000025;
+  -webkit-transition: .8s;
+  transition: .8s;
 }
 
 .nav-item {
@@ -11064,8 +11065,8 @@ span {
     transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 }
 
@@ -11075,8 +11076,8 @@ span {
     transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 }
 
@@ -11343,7 +11344,7 @@ span {
   width: 100%;
   -webkit-filter: grayscale(1) brightness(0.5);
           filter: grayscale(1) brightness(0.5);
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
