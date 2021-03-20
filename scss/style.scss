@@ -1,4 +1,4 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
 //tema
 $header-color: #141E30;
@@ -125,6 +125,15 @@ span {
     background-size: cover;
 }
 
+.wall-3 {
+    background: linear-gradient(90deg, rgb(1, 3, 17) 0%, rgba(0, 25, 59, 0.7) 100%), url("../assets/social.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .box-product {
     padding: 15px;
     border: dotted;
@@ -144,6 +153,17 @@ span {
     height: 50vh;
 }
 
+.card-0 {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 15px;
+    padding: 20px;
+}
+
 .card-1 {
     background: #141E30;
     /* fallback for old browsers */
@@ -151,7 +171,12 @@ span {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #243B55, #141E30);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 10px;
+    border-radius: 50px 50px 50px 15px;
+}
+
+.card-2 {
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .divisor {
@@ -163,6 +188,22 @@ span {
     background: $span-color;
     position: relative;
     left: -25px;
+}
+
+.preloader-1{
+    height: 30px;
+    width: 100%;
+    border:1px solid $header-color;
+    padding: 2px;
+    margin: 25px 0;
+    border-radius: 50px 50px 50px 15px;
+}
+.preloader-2{
+    height: 100%;
+    background-color: $span-color;
+    border-radius: 50px 50px 50px 15px;
+    padding:0 15px;
+    color: #fff;
 }
 
 .button {
