@@ -11094,7 +11094,20 @@ span {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px black;
+          box-shadow: inset 0 0 5px black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff3300;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aa2d00;
 }
 
 .slide-top {
