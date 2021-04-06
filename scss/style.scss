@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
 //tema
 $header-color: #141E30;
@@ -17,48 +17,6 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: $background-color;
-}
-
-header {
-    position: relative;
-    background-color: $background-color;
-    height: 100vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-    video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: 0;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-    }
-    .container {
-        position: relative;
-        z-index: 2;
-    }
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: $background-color;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #243B55, #141E30);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #243B55, #141E30);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        opacity: 0.8;
-        z-index: 1;
-    }
 }
 
 @media (pointer: coarse) and (hover: none) {
@@ -250,7 +208,7 @@ span {
 }
 
 .nav-item {
-    margin: 0px 25px;
+    margin: 0px 15px;
 }
 
 .bg-navbar {
