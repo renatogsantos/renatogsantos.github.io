@@ -10866,8 +10866,8 @@ span {
 }
 
 .wall {
-  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.7))), url("../assets/wall.png");
-  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.7) 100%), url("../assets/wall.png");
+  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.2))), url("../assets/wall.png");
+  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.2) 100%), url("../assets/wall.png");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -10876,8 +10876,8 @@ span {
 }
 
 .wall-2 {
-  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.7))), url("../assets/wall.png");
-  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.7) 100%), url("../assets/wall.png");
+  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.2))), url("../assets/wall.png");
+  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.2) 100%), url("../assets/wall.png");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -10885,8 +10885,8 @@ span {
 }
 
 .wall-3 {
-  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.7))), url("../assets/social.jpg");
-  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.7) 100%), url("../assets/social.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(#010311), to(rgba(0, 25, 59, 0.3))), url("../assets/social.jpg");
+  background: linear-gradient(90deg, #010311 0%, rgba(0, 25, 59, 0.3) 100%), url("../assets/social.jpg");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
