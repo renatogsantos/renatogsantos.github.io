@@ -310,7 +310,7 @@ span {
     }
 }
 
-.heartbeat {
+.heartbeat:hover {
     -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
     animation: heartbeat 1.5s ease-in-out infinite both
 }
@@ -325,20 +325,20 @@ span {
         animation-timing-function: ease-out
     }
     10% {
-        -webkit-transform: scale(.91);
-        transform: scale(.91);
+        -webkit-transform: scale(.98);
+        transform: scale(.98);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
     17% {
-        -webkit-transform: scale(.98);
-        transform: scale(.98);
+        -webkit-transform: scale(.99);
+        transform: scale(.99);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
     33% {
-        -webkit-transform: scale(.87);
-        transform: scale(.87);
+        -webkit-transform: scale(.97);
+        transform: scale(.97);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
@@ -360,20 +360,20 @@ span {
         animation-timing-function: ease-out
     }
     10% {
-        -webkit-transform: scale(.91);
-        transform: scale(.91);
+        -webkit-transform: scale(.98);
+        transform: scale(.98);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
     17% {
-        -webkit-transform: scale(.98);
-        transform: scale(.98);
+        -webkit-transform: scale(.99);
+        transform: scale(.99);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out
     }
     33% {
-        -webkit-transform: scale(.87);
-        transform: scale(.87);
+        -webkit-transform: scale(.97);
+        transform: scale(.97);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in
     }
