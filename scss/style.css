@@ -10893,6 +10893,11 @@ span {
   }
 }
 
+.hero01 {
+  background-color: #141E30;
+  color: #fff;
+}
+
 .wall-svg {
   width: 100%;
   position: absolute;
