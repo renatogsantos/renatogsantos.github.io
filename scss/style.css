@@ -10884,7 +10884,7 @@ h3 {
 }
 
 span {
-  color: #ff3300;
+  color: #ff2000;
 }
 
 @media only screen and (max-width: 720px) {
@@ -11013,7 +11013,7 @@ span {
   padding: 0;
   margin: 10px 0;
   border-radius: 20px;
-  background: #ff3300;
+  background: #ff2000;
   position: relative;
   left: -25px;
 }
@@ -11029,7 +11029,7 @@ span {
 
 .preloader-2 {
   height: 100%;
-  background-color: #ff3300;
+  background-color: #ff2000;
   border-radius: 50px 50px 50px 15px;
   padding: 0 15px;
   color: #fff;
@@ -11040,7 +11040,7 @@ span {
   color: #fff;
   padding: 5px 25px;
   margin: 10px 0;
-  background: #ff3300;
+  background: #ff2000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 5px 5px #00000025;
           box-shadow: 0px 5px 5px #00000025;
@@ -11051,7 +11051,7 @@ span {
   color: #fff;
   padding: 5px 25px;
   margin: 10px 0;
-  background: #ff3300;
+  background: #ff2000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 10px 15px #00000025;
           box-shadow: 0px 10px 15px #00000025;
@@ -11061,10 +11061,10 @@ span {
 
 .button-1 {
   text-decoration: none;
-  color: #ff3300;
+  color: #ff2000;
   padding: 5px 20px;
   margin: 10px 0;
-  border: 2px solid #ff3300;
+  border: 2px solid #ff2000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 5px 5px #00000025;
           box-shadow: 0px 5px 5px #00000025;
@@ -11073,10 +11073,10 @@ span {
 .button-1:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #ff3300;
+  background-color: #ff2000;
   padding: 5px 20px;
   margin: 10px 0;
-  border: 2px solid #ff3300;
+  border: 2px solid #ff2000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 10px 15px #00000025;
           box-shadow: 0px 10px 15px #00000025;
@@ -11101,7 +11101,7 @@ span {
   background: -webkit-gradient(linear, left top, right top, color-stop(bottom, to), color-stop(#243B55), to(#141E30));
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #ff3300;
+  border-bottom: 3px solid #ff2000;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -11110,7 +11110,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #ff3300;
+  border: 3px solid #ff2000;
 }
 
 .social-icon {
@@ -11128,7 +11128,7 @@ span {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff3300;
+  background: #ff2000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -11344,12 +11344,12 @@ span {
 }
 
 ::-moz-selection {
-  background: #ff3300;
+  background: #ff2000;
   color: #fff;
 }
 
 ::selection {
-  background: #ff3300;
+  background: #ff2000;
   color: #fff;
 }
 
