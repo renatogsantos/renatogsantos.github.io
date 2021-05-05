@@ -7,7 +7,7 @@ $span-color: #ff3000;
 * {
     padding: 0;
     margin: 0;
-    letter-spacing: .1px;
+    letter-spacing: .2px;
 }
 
 html {
@@ -190,8 +190,7 @@ span {
     padding: 0;
     margin: 10px 0;
     border-radius: 20px;
-    background: rgb(255,48,0);
-    background: linear-gradient(45deg, rgba(255,48,0,1) 0%, rgba(255,0,228,1) 100%);
+    background-color: $span-color;
     position: relative;
     left: -25px;
 }
