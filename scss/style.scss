@@ -1,9 +1,9 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
 //tema
 $header-color: #141E30;
 $background-color: rgb(255,255,255);
-$span-color: #ff2000;
+$span-color: #ff3000;
 * {
     padding: 0;
     margin: 0;
@@ -51,6 +51,7 @@ h3 {
 
 span {
     color: $span-color;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
@@ -64,8 +65,8 @@ span {
 }
 
 .hero02{
-    background: rgb(2,0,36);
-    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(139,16,152,1) 50%, rgba(255,136,0,1) 75%, rgba(255,0,0,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(255,0,228,1) 100%);
     color: #fff;
 }
 @media only screen and (max-width: 1080px) {
@@ -132,6 +133,12 @@ span {
     background-size: cover;
 }
 
+.wave{
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+}
+
 .box-product {
     padding: 15px;
     border: dotted;
@@ -183,7 +190,8 @@ span {
     padding: 0;
     margin: 10px 0;
     border-radius: 20px;
-    background: $span-color;
+    background: rgb(255,48,0);
+    background: linear-gradient(45deg, rgba(255,48,0,1) 0%, rgba(255,0,228,1) 100%);
     position: relative;
     left: -25px;
 }
