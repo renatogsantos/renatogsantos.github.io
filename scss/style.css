@@ -10900,8 +10900,8 @@ span {
 }
 
 .hero02 {
-  background: black;
-  background: linear-gradient(45deg, black 20%, red 75%, #ff00e4 100%);
+  background: #6600ff;
+  background: linear-gradient(45deg, #6600ff 0%, red 35%, #ff7c00 65%, #ff00e4 100%);
   color: #fff;
 }
 
