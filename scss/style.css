@@ -10907,8 +10907,8 @@ span {
 
 .hero03 {
   background: whitesmoke;
-  background: -webkit-gradient(linear, left top, right top, from(whitesmoke), to(#f1f1f1));
-  background: linear-gradient(90deg, whitesmoke 0%, #f1f1f1 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#cecbd3), to(#f1f1f1));
+  background: linear-gradient(90deg, #cecbd3 0%, #f1f1f1 100%);
 }
 
 @media only screen and (max-width: 1080px) {
