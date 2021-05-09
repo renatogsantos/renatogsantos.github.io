@@ -4,7 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10806,8 +10806,6 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   padding: 0;
   margin: 0;
-  letter-spacing: 2px;
-  line-height: 1.2;
 }
 
 html {
@@ -10815,7 +10813,7 @@ html {
 }
 
 body {
-  font-family: 'Grandstander', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (pointer: coarse) and (hover: none) {
@@ -10828,7 +10826,7 @@ body {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 800;
   padding: 0;
   margin: 0;
@@ -10836,21 +10834,22 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 700;
   padding: 0;
   margin: 0;
 }
 
 h3 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 0;
   margin: 0;
 }
 
 span {
-  color: #ff2000;
+  color: #ff3000;
   font-weight: 700;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 720px) {
@@ -11008,8 +11007,7 @@ span {
 
 .card-2 {
   border-radius: 15px;
-  padding: 10px 50px;
-  margin: 10px 0;
+  padding: 20px;
   background-color: #fff;
   color: #141E30;
 }
@@ -11020,7 +11018,7 @@ span {
   padding: 0;
   margin: 10px 0;
   border-radius: 20px;
-  background-color: #ff2000;
+  background-color: #ff3000;
   position: relative;
   left: -25px;
 }
@@ -11036,7 +11034,7 @@ span {
 
 .preloader-2 {
   height: 100%;
-  background-color: #ff2000;
+  background-color: #ff3000;
   border-radius: 50px 50px 50px 15px;
   padding: 0 15px;
   color: #fff;
@@ -11047,7 +11045,7 @@ span {
   color: #fff;
   padding: 5px 25px;
   margin: 10px 0;
-  background: #ff2000;
+  background: #ff3000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 5px 5px #00000025;
           box-shadow: 0px 5px 5px #00000025;
@@ -11058,7 +11056,7 @@ span {
   color: #fff;
   padding: 5px 25px;
   margin: 10px 0;
-  background: #ff2000;
+  background: #ff3000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 10px 15px #00000025;
           box-shadow: 0px 10px 15px #00000025;
@@ -11068,10 +11066,10 @@ span {
 
 .button-1 {
   text-decoration: none;
-  color: #ff2000;
+  color: #ff3000;
   padding: 5px 20px;
   margin: 10px 0;
-  border: 2px solid #ff2000;
+  border: 2px solid #ff3000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 5px 5px #00000025;
           box-shadow: 0px 5px 5px #00000025;
@@ -11080,10 +11078,10 @@ span {
 .button-1:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #ff2000;
+  background-color: #ff3000;
   padding: 5px 20px;
   margin: 10px 0;
-  border: 2px solid #ff2000;
+  border: 2px solid #ff3000;
   border-radius: 50px 50px 50px 15px;
   -webkit-box-shadow: 0px 10px 15px #00000025;
           box-shadow: 0px 10px 15px #00000025;
@@ -11108,7 +11106,7 @@ span {
   background: -webkit-gradient(linear, left top, right top, color-stop(bottom, to), color-stop(#243B55), to(#141E30));
   background: linear-gradient(90deg, to bottom, #243B55, #141E30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 3px solid #ff2000;
+  border-bottom: 3px solid #ff3000;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
@@ -11117,7 +11115,7 @@ span {
   border-radius: 50%;
   width: 80px;
   margin-bottom: 25px;
-  border: 3px solid #ff2000;
+  border: 3px solid #ff3000;
 }
 
 .social-icon {
@@ -11135,7 +11133,7 @@ span {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff2000;
+  background: #ff3000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -11351,12 +11349,12 @@ span {
 }
 
 ::-moz-selection {
-  background: #ff2000;
+  background: #ff3000;
   color: #fff;
 }
 
 ::selection {
-  background: #ff2000;
+  background: #ff3000;
   color: #fff;
 }
 
