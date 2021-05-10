@@ -1,13 +1,12 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 //tema
 $header-color: #141E30;
 $background-color: rgb(255,255,255);
-$span-color: #ff2000;
+$span-color: #ff3000;
 * {
     padding: 0;
     margin: 0;
-    letter-spacing: .2px;
 }
 
 html {
@@ -15,8 +14,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: $background-color;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (pointer: coarse) and (hover: none) {
@@ -29,14 +27,14 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 800;
     padding: 0;
     margin: 0;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;
     padding: 0;
     margin: 0;
@@ -51,7 +49,8 @@ h3 {
 
 span {
     color: $span-color;
-    font-weight: 800;
+    font-weight: 700;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 720px) {
@@ -71,14 +70,9 @@ span {
 }
 
 .hero03 {
-    background: rgb(245,245,245);
-    background: linear-gradient(90deg, rgb(206, 203, 211) 0%, rgba(241,241,241,1) 100%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(209, 224, 240) 100%);
 }
-@media only screen and (max-width: 1080px) {
-    .phone, .notebook, .contract {
-      display: none;
-    }
-  }
 
 .wall-svg {
     width: 100%;
@@ -144,12 +138,25 @@ span {
     width: 100%;
 }
 
-.phone, .notebook, .contract{
+.icon {
+    height: 95px;
+    margin: 20px;
+}
+
+.phone, .notebook, .contract {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+.clients {
+    width: 100%;
+}
 
+@media only screen and (max-width: 1080px) {
+    .phone, .notebook, .contract {
+      display: none;
+    }
+  }
 
 .box-product {
     padding: 15px;
@@ -194,6 +201,8 @@ span {
 .card-2 {
     border-radius: 15px;
     padding: 20px;
+    background-color: #fff;
+    color: $header-color;
 }
 
 .divisor {
