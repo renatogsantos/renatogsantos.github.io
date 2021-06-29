@@ -11664,4 +11664,17 @@ section.pricing {
     opacity: 1;
   }
 }
+
+.service-2 {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .service-1 {
+    display: none;
+  }
+  .service-2 {
+    display: block;
+  }
+}
 /*# sourceMappingURL=style.css.map */
