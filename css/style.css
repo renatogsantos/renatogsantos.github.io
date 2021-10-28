@@ -31,7 +31,6 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 .galaxy-2{
     background: linear-gradient(90deg, rgb(1, 3, 17) 0%, rgba(0, 25, 59, 0.2) 100%), url("../assets/JPG/wall1.jpg");
@@ -39,7 +38,6 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 .galaxy-3{
     background: linear-gradient(90deg, rgb(1, 3, 17) 0%, rgba(0, 25, 59, 0.2) 100%), url("../assets/JPG/wall2.jpg");
@@ -47,7 +45,6 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 .galaxy-4{
     background: linear-gradient(90deg, rgb(1, 3, 17) 0%, rgba(0, 25, 59, 0.2) 100%), url("../assets/JPG/wall3.jpg");
@@ -55,18 +52,8 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
-.sun {
+.sun, .mercury, .venus, .earth, .moon, .mars {
   width: 100%;
-}
-
-@media only screen and (min-width: 1080px) {
-  .sun {
-    position: absolute;
-    width: 150%;
-    right: -50%;
-    top: -200%;
-  }
 }
