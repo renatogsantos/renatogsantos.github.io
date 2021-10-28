@@ -54,6 +54,6 @@ p {
     background-size: cover;
 }
 
-.sun, .mercury, .venus, .earth, .moon, .mars {
+.sun, .mercury, .venus, .earth, .moon, .mars, .jupiter, .saturn, .uranos, .neptune, .pluto {
   width: 100%;
 }
