@@ -296,14 +296,15 @@ span {
 }
 
 .bg-navbar {
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     transition: ease 0.8s;
 }
 
 .bg-navbar-scroll {
     background-color: #141e3099;
     backdrop-filter: blur(10px);
-    border-bottom: 3px solid $span-color;
+    border-radius:10px;
+    margin: 10px;
     -webkit-transition: ease 0.3s;
     transition: ease 0.3s;
 }
@@ -312,13 +313,14 @@ span {
     border-radius: 50%;
     width: 80px;
     margin-bottom: 25px;
+    transition: ease .8s;
 }
 .card-blur{
     backdrop-filter: blur(15px);
     background: #ffffff10;
-    border-radius:30px;
-    height: 100%;
+    border-radius:25px;
     width: 100%;
+    height: 100%;
     transition: ease 1s;
 }
 .card-blur:hover{
