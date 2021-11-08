@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-	if ($(document).scrollTop() > 30) {
+	if ($(document).scrollTop() > 150) {
 		$('nav').addClass('bg-navbar-scroll');
 	}      else {
 		$('nav').removeClass('bg-navbar-scroll');

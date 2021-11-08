@@ -254,6 +254,7 @@ span {
     background: $span-color;
     border-radius: 50px 50px 50px 15px;
     box-shadow: 0px 5px 5px #00000025;
+    transition: .3s;
 }
 
 .button:hover {
@@ -275,6 +276,7 @@ span {
     border: 2px solid $span-color;
     border-radius: 50px 50px 50px 15px;
     box-shadow: 0px 5px 5px #00000025;
+    transition: .3s;
 }
 
 .button-1:hover {
@@ -294,28 +296,34 @@ span {
 }
 
 .bg-navbar {
-    background: rgba(20, 30, 48, 0.100);
-    -webkit-transition: ease 0.5s;
-    transition: ease 0.5s;
+    backdrop-filter: blur(15px);
+    transition: ease 0.8s;
 }
 
 .bg-navbar-scroll {
-    background: #141E30;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(90deg, to bottom, #243B55, #141E30);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(90deg, to bottom, #243B55, #141E30);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #141e3099;
+    backdrop-filter: blur(10px);
     border-bottom: 3px solid $span-color;
-    -webkit-transition: ease 0.5s;
-    transition: ease 0.5s;
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
 }
 
 .perfil {
     border-radius: 50%;
     width: 80px;
     margin-bottom: 25px;
-    border: 3px solid $span-color;
+}
+.card-blur{
+    backdrop-filter: blur(15px);
+    background: #ffffff10;
+    border-radius:30px;
+    height: 100%;
+    width: 100%;
+    transition: ease 1s;
+}
+.card-blur:hover{
+    transition: ease .3s;
+    transform:scale(1.1);
 }
 
 .social-icon {
