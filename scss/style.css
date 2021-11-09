@@ -12115,7 +12115,9 @@ span {
   margin: 20px;
 }
 
-.phone, .notebook, .contract {
+.phone,
+.notebook,
+.contract {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -12126,7 +12128,9 @@ span {
 }
 
 @media only screen and (max-width: 1080px) {
-  .phone, .notebook, .contract {
+  .phone,
+  .notebook,
+  .contract {
     display: none;
   }
 }
@@ -12297,8 +12301,6 @@ span {
           backdrop-filter: blur(15px);
   background: #ffffff10;
   border-radius: 25px;
-  width: 100%;
-  height: 100%;
   -webkit-transition: ease 1s;
   transition: ease 1s;
 }
