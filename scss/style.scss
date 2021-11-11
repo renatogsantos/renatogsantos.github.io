@@ -314,6 +314,8 @@ span {
     background-color: #141e3099;
     backdrop-filter: blur(10px);
     border-radius: 10px;
+    border:1px solid #ffffff30;
+    box-shadow: 0 0 15px #ffffff30 inset;
     margin: 10px;
     -webkit-transition: ease 0.3s;
     transition: ease 0.3s;

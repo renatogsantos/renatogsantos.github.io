@@ -12283,6 +12283,9 @@ span {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   border-radius: 10px;
+  border: 1px solid #ffffff30;
+  -webkit-box-shadow: 0 0 15px #ffffff30 inset;
+          box-shadow: 0 0 15px #ffffff30 inset;
   margin: 10px;
   -webkit-transition: ease 0.3s;
   transition: ease 0.3s;
