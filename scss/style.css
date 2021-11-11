@@ -12294,9 +12294,16 @@ span {
   margin-bottom: 25px;
   -webkit-transition: ease .8s;
   transition: ease .8s;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-blur {
+  position: relative;
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   background: #ffffff10;
