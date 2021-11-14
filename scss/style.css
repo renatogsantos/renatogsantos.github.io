@@ -12314,15 +12314,15 @@ span {
   border: 1px solid #ffffff30;
   -webkit-box-shadow: 0 0 15px #ffffff30 inset;
           box-shadow: 0 0 15px #ffffff30 inset;
-  -webkit-transition: cubic-bezier(0.86, -1.18, 0.71, 2.77) 1s;
-  transition: cubic-bezier(0.86, -1.18, 0.71, 2.77) 1s;
+  -webkit-transition: cubic-bezier(0.88, -1.44, 0.76, 2.49) 1s;
+  transition: cubic-bezier(0.88, -1.44, 0.76, 2.49) 1s;
 }
 
 .card-blur:hover {
   -webkit-transition: ease .3s;
   transition: ease .3s;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-box-shadow: 0 0 35px #ffffff30 inset;
           box-shadow: 0 0 35px #ffffff30 inset;
 }
