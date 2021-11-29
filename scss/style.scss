@@ -326,12 +326,9 @@ span {
     width: 80px;
     margin-bottom: 25px;
     transition: ease .8s;
-    position:absolute;
-    top: -40px;
-    left: 0; 
-    right: 0; 
     margin-left: auto; 
-    margin-right: auto; 
+    margin-right: auto;
+    border:3px solid $span-color; 
 }
 
 .card-blur {
