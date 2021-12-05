@@ -12276,6 +12276,7 @@ span {
           backdrop-filter: blur(5px);
   -webkit-transition: ease 0.8s;
   transition: ease 0.8s;
+  border-bottom: 1px solid #ffffff50;
 }
 
 .bg-navbar-scroll {

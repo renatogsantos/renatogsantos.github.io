@@ -308,6 +308,7 @@ span {
 .bg-navbar {
     backdrop-filter: blur(5px);
     transition: ease 0.8s;
+    border-bottom: 1px solid #ffffff50;
 }
 
 .bg-navbar-scroll {
