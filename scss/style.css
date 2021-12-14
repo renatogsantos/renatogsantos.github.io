@@ -12704,6 +12704,26 @@ section.pricing {
   background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
+.card-one {
+  background-color: #edf2f4;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.card-one:hover {
+  background-color: #2b2d42;
+  color: white;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .pricing .card {
   border: none;
   border-radius: 1rem;
